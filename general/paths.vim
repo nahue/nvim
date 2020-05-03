@@ -1,1 +1,2 @@
-let g:python3_host_prog = expand("~/.miniconda/envs/neovim/bin/python3.8")
+let g:python3_host_prog = expand("/usr/bin/python3")
+let g:node_host_prog = expand("~/.fnm/aliases/default/bin/node")

@@ -26,7 +26,8 @@ else
   nnoremap <TAB> :bnext<CR>
   " SHIFT-TAB will go back
   nnoremap <S-TAB> :bprevious<CR>
-
+  " CTRL + q closes buffer
+  nnoremap <C-q> :Bdelete<CR>
   " Alternate way to save
   nnoremap <C-s> :w<CR>
   " Alternate way to quit
